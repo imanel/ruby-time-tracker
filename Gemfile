@@ -12,6 +12,7 @@ gem 'cancan'
 
 group :development do
   gem 'mongrel'
+  gem 'web-app-theme', '>= 0.6.2'
 end
 
 group :development, :test do
