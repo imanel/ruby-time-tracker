@@ -5,7 +5,6 @@ gem 'mysql'
 
 gem 'haml'
 gem 'jquery-rails'
-# gem 'dynamic_form'
 
 gem 'devise'
 gem 'cancan'
