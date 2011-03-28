@@ -13,6 +13,8 @@ gem 'cancan'
 group :development do
   gem 'mongrel'
   gem 'web-app-theme', '>= 0.6.2'
+  gem 'hpricot'
+  gem 'ruby_parser'
 end
 
 group :development, :test do
