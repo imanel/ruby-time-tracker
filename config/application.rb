@@ -40,6 +40,7 @@ module RubyTimeTracker
     config.filter_parameters += [:password]
     
     config.to_prepare do
+      Devise::PasswordsController.layout "sign"
       Devise::RegistrationsController.layout "sign"
       Devise::SessionsController.layout "sign"
     end
